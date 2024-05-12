@@ -2,7 +2,7 @@ import mongoose from "mongoose"
 
 const userSchema = new mongoose.Schema(
     {
-        user:{
+        username:{
             type: String,
             requied:[true, "please provide unquie username"],
             unique:true
